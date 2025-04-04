@@ -1,4 +1,4 @@
-## ACCESSING THE INTERACTIVE MAP -> [https://goofyboga.github.io/mapping_weighted_addresses/runclub_map.html]
+## ACCESSING THE INTERACTIVE MAP -> [https://goofyboga.github.io/mapping_weighted_addresses/CSESoc_map.html]
 
 If the above link fails to work, a static image has been provided below of its use case.
 ![image](https://github.com/user-attachments/assets/f2b97ba7-1a89-456c-a1f7-5a966651cd84)

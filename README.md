@@ -5,8 +5,8 @@ If the above link fails to work, a static image has been provided below of its u
 
 ## Specification 
 
-Takes in user input consisting of name, address, attendance weight scale (1-5) and portfolio. Plots the 
-address of each row onto a localised map. Size of the dot reflects the attendance weight. Optionally,
-future improvements can be made to this script which differentiates between portfolios using 
-different symbols. 
+Takes in input consisting of name, address, attendance weight scale (1-5). Plots the 
+address of each row onto a localised map. Size of the dot reflects the attendance weight. 
+Optionally, future improvements can be made to this script which differentiates between 
+portfolios and divisions using different symbols. 
 

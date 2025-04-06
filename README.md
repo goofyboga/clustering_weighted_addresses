@@ -1,15 +1,15 @@
 ## ACCESSING THE INTERACTIVE MAPS:
--> K-means Clustering: [https://goofyboga.github.io/clustering_weighted_addresses/kmeans_clusters_map.html]
--> DBSCAN Clustering: [https://goofyboga.github.io/clustering_weighted_addresses/dbscan_clusters_map.html]
--> Weighted Addresses: [https://goofyboga.github.io/clustering_weighted_addresses/CSESoc_weighted_map.html]
+-> K-means Clustering: [https://goofyboga.github.io/clustering_weighted_addresses/kmeans_clusters_map.html]  
+-> DBSCAN Clustering: [https://goofyboga.github.io/clustering_weighted_addresses/dbscan_clusters_map.html]  
+-> Weighted Addresses: [https://goofyboga.github.io/clustering_weighted_addresses/CSESoc_weighted_map.html]  
 
-If the above links fail to work, a static image has been provided below of it's use case
--> K-means Clustering:
-![image](https://github.com/user-attachments/assets/596dcd62-f4df-48aa-bf3d-6a7d8ef509e6)
--> DBSCAN Clustering:
-![image](https://github.com/user-attachments/assets/ab0386b7-1c0c-4dfc-b40d-8755841a7379)
--> Weighted Addresses: 
-![image](https://github.com/user-attachments/assets/6c594ab4-eaf3-4cf7-810e-31b7eb88a00f)
+If the above links fail to work, a static image has been provided below of it's use case:  
+-> K-means Clustering:  
+![image](https://github.com/user-attachments/assets/596dcd62-f4df-48aa-bf3d-6a7d8ef509e6)  
+-> DBSCAN Clustering:  
+![image](https://github.com/user-attachments/assets/ab0386b7-1c0c-4dfc-b40d-8755841a7379)  
+-> Weighted Addresses:  
+![image](https://github.com/user-attachments/assets/6c594ab4-eaf3-4cf7-810e-31b7eb88a00f)  
 
 ## Technical Summary
 Given the potential variability of member locations, both K-means and DBSCAN clustering have been utilised

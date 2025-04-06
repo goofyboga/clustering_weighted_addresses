@@ -1,12 +1,29 @@
-## ACCESSING THE INTERACTIVE MAP -> [https://goofyboga.github.io/mapping_weighted_addresses/CSESoc_map.html]
+## ACCESSING THE INTERACTIVE MAPS:
+-> K-means Clustering: [https://goofyboga.github.io/clustering_weighted_addresses/kmeans_clusters_map.html]
+-> DBSCAN Clustering: [https://goofyboga.github.io/clustering_weighted_addresses/dbscan_clusters_map.html]
+-> Weighted Addresses: [https://goofyboga.github.io/clustering_weighted_addresses/CSESoc_weighted_map.html]
 
-If the above link fails to work, a static image has been provided below of its use case.
-![image](https://github.com/user-attachments/assets/f2b97ba7-1a89-456c-a1f7-5a966651cd84)
+If the above links fail to work, a static image has been provided below of it's use case
+-> K-means Clustering:
+![image](https://github.com/user-attachments/assets/596dcd62-f4df-48aa-bf3d-6a7d8ef509e6)
+-> DBSCAN Clustering:
+![image](https://github.com/user-attachments/assets/ab0386b7-1c0c-4dfc-b40d-8755841a7379)
+-> Weighted Addresses: 
+![image](https://github.com/user-attachments/assets/6c594ab4-eaf3-4cf7-810e-31b7eb88a00f)
+
+## Technical Summary
+Given the potential variability of member locations, both K-means and DBSCAN clustering have been utilised
+to deal with both uniform and non-uniform density clustering respectively. For K-means, Silhouette Score method 
+has been used to obtain the optimal number of clusters which came out as 4 to 6. 6 clusters was selected to prioritise 
+small running groups. DBSCAN was more effective in providing localised clusters that was more geographically efficient 
+as it accounted for irregularly shaped clusters of Sydney's population centres (non spherical). HOWEVER even in the best
+case selection of (eps = 0.03, min_samples = 3) - DBSCAN classifies ~15% of its data points as noise. This is highly
+unideal as the use case of a Runclub values minimal data point loss (inclusiveness) over geographical optimisation.
+For this reason, K-means with a selection fo 6 clusters has been deemed the most suitable cllustering model selection.
 
 ## Specification 
 
-Takes in input consisting of name, address, attendance weight scale (1-5). Plots the 
-address of each row onto a localised map. Size of the dot reflects the attendance weight. 
-Optionally, future improvements can be made to this script which differentiates between 
-portfolios and divisions using different symbols. 
+Takes in input consisting of name, address and an attendance weight scale (1-5). Optionally, future improvements can be made 
+to this script which differentiates between the organization's portfolios and divisions using different symbols.  
+
 

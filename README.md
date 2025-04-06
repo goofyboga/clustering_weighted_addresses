@@ -14,7 +14,7 @@ If the above links fail to work, a static image has been provided below of it's 
 ## Technical Summary
 Given the potential variability of member locations, both K-means and DBSCAN clustering have been utilised to deal 
 with both uniform and non-uniform density clustering respectively. For K-means, Silhouette Score method has been used 
-to obtain the optimal number of clusters which came out as 4 to 6. 6 clusters was selected to prioritise small running 
+to obtain the optimal number of clusters which came out as 4 to 6. I ended up selecting 6 clusters to prioritise smaller
 groups. DBSCAN was more effective in providing localised clusters that was more geographically efficient as it accounted 
 for irregularly shaped clusters of Sydney's population centres (non spherical). HOWEVER even in the best case selection of 
 eps = 0.03 and min_samples = 3 -> DBSCAN still classifies ~15% of its data points as noise or outliers. This is highly unideal 
